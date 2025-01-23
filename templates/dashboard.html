@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Churn Dashboard</title>
+</head>
+<body>
+    <h1>Customer Churn Dashboard</h1>
+
+    <h2>Churn Distribution</h2>
+    {{ churn_dist | safe }}
+
+    <h2>Tenure vs. Churn</h2>
+    {{ tenure_vs_churn | safe }}
+
+    <h2>Spending Per Month vs. Churn</h2>
+    {{ spending_vs_churn | safe }}
+</body>
+</html>
